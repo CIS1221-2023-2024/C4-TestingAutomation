@@ -2,7 +2,7 @@
 
 Project – Testing Automation
 
-[Pre-Requisites] (Pre-Requisites.md)
+[Pre-Requisites.md](Pre-Requisites.md)
 
 [Wiki](Wiki.md)
 
