@@ -1,5 +1,6 @@
 # C4-TestingAutomation
 
+(To Wiki)[wiki.md]
 
 Project – Testing Automation
 
