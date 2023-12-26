@@ -1,0 +1,24 @@
+name: Continuous Integration - Automate Tests on Main Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+
+      - name: run automated tests if main.py changed
+        run: python Prnc&Prdg-PrgLng_Asgn_Stack/test_main.py
+
+        
