@@ -1,0 +1,7 @@
+C:\Users\User\Pictures\newExams\Priciples_Assignment_3_\Priciples_Assignment_3_\bin\Debug\Priciples_Assignment_3_.exe.config
+C:\Users\User\Pictures\newExams\Priciples_Assignment_3_\Priciples_Assignment_3_\bin\Debug\Priciples_Assignment_3_.exe
+C:\Users\User\Pictures\newExams\Priciples_Assignment_3_\Priciples_Assignment_3_\bin\Debug\Priciples_Assignment_3_.pdb
+C:\Users\User\Pictures\newExams\Priciples_Assignment_3_\Priciples_Assignment_3_\obj\Debug\Priciples_Assignment_3_.csproj.AssemblyReference.cache
+C:\Users\User\Pictures\newExams\Priciples_Assignment_3_\Priciples_Assignment_3_\obj\Debug\Priciples_Assignment_3_.csproj.CoreCompileInputs.cache
+C:\Users\User\Pictures\newExams\Priciples_Assignment_3_\Priciples_Assignment_3_\obj\Debug\Priciples_Assignment_3_.exe
+C:\Users\User\Pictures\newExams\Priciples_Assignment_3_\Priciples_Assignment_3_\obj\Debug\Priciples_Assignment_3_.pdb
