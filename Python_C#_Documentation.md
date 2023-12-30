@@ -12,15 +12,15 @@ Memory :
 Python: Makes use of a dynamic typing system and automated garbage collection for memory management.
  C#: This language has a static type system and automated memory management via the Common Language Runtime .
 
- # Platform :
+Platform :
 Python: Python applications may run on any platform provided an interpreter for the language is available. Python is generally platform-independent.
  C#: Originally connected to Windows, C# has expanded its cross-platform compatibility 
 
-### Community: 
+Community: 
 Python: Boasts a sizable and heterogeneous community. It provides a vast ecosystem of frameworks and packages, including TensorFlow for machine learning 
 C#: Excellent community backing, especially for corporate programming. It has access to a wide range of libraries
 
-### Runtime: 
+Runtime: 
 When it comes to runtime performance, C# performs better than Python. Because C# is a compiled language, it is translated into machine code, which the processor can run more quickly. Better performance and quicker execution times are the outcomes, particularly for jobs requiring a lot of resources.
 Although code optimization and the usage of suitable libraries can enhance Python's runtime speed, C# continues to provide a definite performance edge for applications requiring a lot of computing power.
 
