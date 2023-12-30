@@ -6,6 +6,6 @@ Project – Testing Automation
 
 Documentation
 
-[PythonC#Documentation](Python_C#_Documentation.md)
+[PythonC#Documentation](P-c#-Documentation.md)
 
 [Wiki](Wiki.md)
