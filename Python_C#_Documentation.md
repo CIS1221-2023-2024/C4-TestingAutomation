@@ -1,4 +1,4 @@
-## Python and C# Documentation
+Python and C# Documentation
 
 Python, is a high-level, interpreted, dynamically-typed programming language. It is compatible with several programming paradigms, such as functional, object-oriented, and procedural programming. It is renowned for being readable and user-friendly. An interpreted language in which the Python interpreter runs the source code directly. Python extensively utilized in scripting, artificial intelligence, data analysis, and web development. It's well-liked in machine learning and scientific computing as well.
 
