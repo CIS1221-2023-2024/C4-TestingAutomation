@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "NUnitassignment/1.0.0": {
+        "dependencies": {
+          "NUnit": "3.4.1"
+        },
+        "runtime": {
+          "NUnitassignment.dll": {}
+        }
+      },
+      "NUnit/3.4.1": {
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {
+            "assemblyVersion": "3.4.1.0",
+            "fileVersion": "3.4.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NUnitassignment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NUnit/3.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G/9h/ENn8+GvT5DvBqVNrUhIWuxtAr0/oVGN2ljKVUw50EAZYBzeWSy9s6nqMswaQACpQzljql1sWQ/peE2eJg==",
+      "path": "nunit/3.4.1",
+      "hashPath": "nunit.3.4.1.nupkg.sha512"
+    }
+  }
+}

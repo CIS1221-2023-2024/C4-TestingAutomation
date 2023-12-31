@@ -1,7 +1,0 @@
-C:\Users\User\Pictures\newExams\Priciples_Assignment_2\Priciples_Assignment_2\bin\Debug\Priciples_Assignment_2.exe.config
-C:\Users\User\Pictures\newExams\Priciples_Assignment_2\Priciples_Assignment_2\bin\Debug\Priciples_Assignment_2.exe
-C:\Users\User\Pictures\newExams\Priciples_Assignment_2\Priciples_Assignment_2\bin\Debug\Priciples_Assignment_2.pdb
-C:\Users\User\Pictures\newExams\Priciples_Assignment_2\Priciples_Assignment_2\obj\Debug\Priciples_Assignment_2.csproj.AssemblyReference.cache
-C:\Users\User\Pictures\newExams\Priciples_Assignment_2\Priciples_Assignment_2\obj\Debug\Priciples_Assignment_2.csproj.CoreCompileInputs.cache
-C:\Users\User\Pictures\newExams\Priciples_Assignment_2\Priciples_Assignment_2\obj\Debug\Priciples_Assignment_2.exe
-C:\Users\User\Pictures\newExams\Priciples_Assignment_2\Priciples_Assignment_2\obj\Debug\Priciples_Assignment_2.pdb

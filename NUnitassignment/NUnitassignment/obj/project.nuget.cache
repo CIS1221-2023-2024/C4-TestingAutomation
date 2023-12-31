@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "k9w/nYBfrwCQQp5ZVXAG7nTUIChSFPS8LNM0AGgd+P3weymsGFyruOMIRs/0y2AH97wVbVZurCSOsTI66UFy2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Pictures\\newExams\\NUnitassignment\\NUnitassignment\\NUnitassignment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\nunit\\3.4.1\\nunit.3.4.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NUnit 3.4.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
