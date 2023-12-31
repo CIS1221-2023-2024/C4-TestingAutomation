@@ -28,7 +28,7 @@ jobs:
 
       - name: Restore dependencies and build
         run: |
-          NUnitassignment/NUnitassignment
+          NUnitassignment/NUnitassignment/NUnitassignment.csproj
           dotnet restore
           dotnet build
 
