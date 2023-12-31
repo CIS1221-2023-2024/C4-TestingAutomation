@@ -22,7 +22,7 @@ jobs:
         run: python "Prnc&Prdg-PrgLng_Asgn_Stack/test_main.py"
 
       - name: Set up .NET
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v1.2.x
         with:
           dotnet-version: 5.0
 
