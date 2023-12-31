@@ -46,7 +46,7 @@ class Stack:
     def display(self):
         # Display the current contents of the stack
         if not self.is_empty():
-            print("Current Stack Contents are: ", self.items)
+            print("Current Stack Contents are:", self.items)
         else:
             print("Nothing to Display! Stack is Empty!")
 
