@@ -27,8 +27,9 @@ jobs:
           dotnet-version: 5.0.x
 
       - name: Restore dependencies and build
+        working-directory: ./NUnitassignment/NUnitassignment
         run: |
-          NUnitassignment/NUnitassignment.sln
+          # NUnitassignment/NUnitassignment.sln
           dotnet restore
           dotnet build
 
