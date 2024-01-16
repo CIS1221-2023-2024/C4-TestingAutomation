@@ -1,7 +1,7 @@
-Project – Testing Automation
+# Testing Automation
 
 
-Pre-Requisites
+# Initial Pre-Requisites
 
 -	The aim is to set up a simple suite of automated tests which will ascertain the correct functionality of the key functions (method) of a main end-user program/code.
 
