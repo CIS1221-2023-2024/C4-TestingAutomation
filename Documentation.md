@@ -81,11 +81,11 @@ Moreover, the tests were designed so that they can either be run independently b
 
 # Programming Languages and Testing Frameworks
 
-In terms of programming languages used for this assignment - the above-mentioned stack implementation and testing suite, it was decided to use C# and Python programming languages. In spite of their inherit difference, for both languages, Python included, the code was constructed in an object-oriented manner, as far as possible, to provide a logical, organised and easy to understand code, whilst being modular and allowing for easy modification and/or enhancements. This would also allow for a fair comparison of performance and volume test runs if the need arises. 
+In terms of programming languages used for this assignment - the above-mentioned stack implementation and testing suite, it was decided to use C# and Python programming languages. In spite of their inherit differences, for both languages, Python included, the code was constructed in an object-oriented manner, as far as possible, as this was deemed to be more suitable for this assignment/project and provides a logical, organised and easy to understand code, whilst being modular and allowing for easy modification and/or enhancements. This would also allow for a fair comparison of performance and volume test runs if the need arises. 
 
-In this regard, in terms of testing frameworks, Python testing was built around the UnitTest framework, whilst C# testing was built around the NUnit framework. Both testing frameworks provide specialised functions which allow for various tests to be built and run.
+In this regard, in terms of testing frameworks, Python testing was built around the UnitTest testing framework, whilst C# testing was built around the NUnit testing framework. Both testing frameworks provide specialised functions which allow for various tests to be built and run.
 
-In terms of workflow, the team was instructed to upload their work on and utilise the GitHub platform repository. Apart from the main branch, separate branches were created for each team member accordingly.
+In terms of workflow, the team was instructed to upload their work on and utilise the GitHub platform repository. A specific GitHub repository was created for the Assignment/Project, and apart from the main branch, separate branches were also created for each team member accordingly.
 
 # Test Functions
 
@@ -107,6 +107,8 @@ Each test function contains:
 -	a text message for each specific test, indicating the expected output, and displayed during the test execution.
 -	text messages indicating initiation and completion of the function’s tests, which are displayed at the start and end of the function’s tests respectively.
 
+The tests are fully automated, and no user input is required (except for starting/running the tests).
+
 # Testing Notes
 
 Continuing with the Python implementation as an example, after initiating a stack instance, each test function typically tries to assert the state of the stack (empty) at the start, as well as assert the state/result of the stack after a push and pop operations, or series thereof, typically using simple known initial values such as ‘1’ and ‘2’ etc. In this manner, extreme/edge cases where the stack is empty, or has just one value added (pushed), or the only value removed (popped), are tested.
@@ -119,9 +121,9 @@ The test_push function also provides a test for pushing a different data type (s
 
 # Running the Tests & Observations
 
-Upon loading the Python project file (with the main.py and test_main.py files) in a compatible IDE, along with running/executing the (main) stack program, the user is encouraged to run/execute the test suite (test_main) to experience/check out the tests. In this case, upon running/executing, all the tests in the test class will execute automatically, with no user input being required. During execution, the IDE should display a number of test messages indicating test progress. Moreover, upon test completion (execution) the test result (passed/failed) and the execution time will also be displayed (Provided that the tests are run on a compatible/featured IDE. Developer testing was conducted using PyCharm with Python 3.1X base/kernel).
+Upon loading the Python project file (with the main.py and test_main.py files) in a compatible IDE, along with running/executing the (main) stack program, the user is encouraged to run/execute the test suite (test_main) to experience/check out the tests. In this case, upon running/executing, all the tests in the test class will execute automatically, with no user input being required. During execution, the IDE should display a number of test messages indicating test progress. Moreover, upon test completion (execution) the test result (passed/failed), stating the number of tests passed/failed, and the execution time will also be displayed (Provided that the tests are run on a compatible/featured IDE. Developer testing was conducted using PyCharm CE 2023.3 with Python 3.1X base/kernel).
 
-As at the assignment deadline, the final test suited executed flawlessly, providing a clean test passed result, and an execution time measured in milliseconds (typically hovering around 60/50/40/30/20 milliseconds (initial test runs obviously take the longest to execute, and execution becomes quicker/faster each time the tests are rerun) (test runs never came close to or exceeded 100 milliseconds) on a 10th Gen Core i5 G machine with 8gb of RAM), calculated over numerous test runs on the same (developer) machine. Similar tests were conducted for the C# test suite.
+As at the assignment deadline, the final test suited executed flawlessly, providing a clean test passed result, with 8 out of 8 tests passed, and an execution time measured in milliseconds (typically hovering around 60/50/40/30/20 milliseconds (initial test runs obviously take the longest to execute, and execution becomes quicker/faster each time the tests are rerun) (test runs never came close to or exceeded 100 milliseconds) on a 10th Gen Core i5 G machine with 8gb of RAM), calculated over numerous test runs on the same (developer) machine. Similar tests were conducted for the C# test suite.
 
 # Enabling Testing Automation
 
