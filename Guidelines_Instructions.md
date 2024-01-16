@@ -18,13 +18,13 @@
 
 
 # C#
-- Clone or Download Zip of the respective C# project folder, containing.....
+- Clone or Download Zip of the respective C# project folder, containing one main folder  which has two files Program.cs and MyNunitTest.cs  additional to class.
 - Place the C# project folder in a known location on your machine.
-- Ensure that you have .net and C#....
-- Open the project folder using Visual Studio Code...
-- Select to run...
-- Select to run...
-- During execution...
+- Ensure that you have .net and C# with  Visual Studio 2019  the Professional installation on your machine.
+- Open the project folder using Visual Studio IDE of your choice. Visual Studio Professional 2019 is suggested.
+- Select to run the Program.cs to see the Stack implementation demonstrating its functionalities. To use the stack, user input is necessary!
+- Select to run the MyNunitTest.cs to see the In the Test Explorer window, you should see a list of your tests. Right-click on the window and select "Run All Tests" or select individual tests and run them. 
+- During execution the format you described Tests Passed: 8 out of 8 tests, execution time milliseconds is a standard summary provided by many testing frameworks, including NUnit. This information is usually displayed in the Test Explorer or the test runner output window after all tests have been executed.
 - Feel free to review the code and evaluate our work. Read the comments to understand what each test does. You may also temporarily modify the code to try different test inputs and observe the resulting test output/results.
 - Finally, make sure to read the Project Wiki/Detailed Documentation to fully understand the Project concept, how the Project progressed, and our final observations.
 - Enjoy! ;)
