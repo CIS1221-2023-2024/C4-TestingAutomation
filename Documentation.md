@@ -1,6 +1,6 @@
-Testing Automation
+# Testing Automation
 
-Context – Software/Code Testing
+# Context – Software/Code Testing
 
 Software testing is a crucial aspect of software development which ensures the reliability and stability of code. As a context, the primary types of code testing which can be automated primarily encompass the following types of tests: 
 
@@ -15,7 +15,7 @@ Test Coverage is another pertinent aspect that is relevant to software developme
 Boundary and value analysis, which involves testing values at boundaries/edges of input domains, is another related aspect, which ensures that software behaves as expected at the extremes of input ranges.
 
 
-Definition & Overview – Testing Automation
+# Definition & Overview – Testing Automation
 
 In coding, the concept of testing automation involves the use of code scripts and automated tools to perform automated software testing tasks. 
 
@@ -27,7 +27,7 @@ One of the primary considerations is Automation Frameworks, which could be tools
 
 Another fundamental consideration is Test Automation Tools, i.e. software applications that assist in creating, executing, and analysing automated tests. Selection of such tools is based on programming language compatibility, ease of integration with other required tools, and the type of application under review (web, mobile, or desktop). Some examples of popular testing automation tools, which are dependent on the programming language being used, include JUnit (Java), NUnit (C#), and UnitTest (Python) (the latter two were utilised for this assignment)
 
-Another key aspect worth considering is that of Continuous Integration/Continuous Deployment (CI/CD) systems. In this context, integration is attained thorough automated tests that are (often) integrated into CI/CD pipelines to ensure that any new code changes/modifications are automatically tested before final deployment. Meanwhile, quick feedback on the quality of the new code changes/modifications helps with early detection and resolution of any arising issues, in what is referred to as the feedback loop. An example of a CI/CD system is GitHub Actions, specifically, GitHub workflows, utilising YAML syntax, which enables automation of workflows (including building, testing and deployment processes) for GitHub repositories. (the latter was also utilised for this assignment) 
+Another key aspect worth considering is that of Continuous Integration/Continuous Deployment (CI/CD) systems. In this context, integration is attained thorough automated tests that are (often) integrated into CI/CD pipelines to ensure that any new code changes/modifications are automatically tested before final deployment. Meanwhile, quick feedback on the quality of the new code changes/modifications helps with early detection and resolution of any arising issues, in what is referred to as the feedback loop. An example of a CI/CD system is GitHub Actions, specifically, GitHub workflows, utilising YAML syntax, which enables automation of workflows (including building, testing and deployment processes) for GitHub platform repositories. (the latter was also utilised for this assignment) 
 
 In terms of best practices for testing automation, the following points are relevant:
 
@@ -52,9 +52,9 @@ In the meantime, the key challenges faced in testing automation can be summarise
 Nevertheless, irrespective of the programming language being used, the principles of testing automation, generally remain consistent across the different frameworks available. Moreover, whilst it is obvious that testing automation is a powerful tool, it should form part of an effective and comprehensive testing strategy, that also encompasses manual testing (as well as other types of testing required). This will ascertain through coverage of the software’s quality and ensures that potential issues are identified and addressed before final deployment.
 
 
-The Assignment
+# The Assignment/Project
 
-Stack
+# A Stack
 
 For this assignment, after due consideration and discussion with the lecturer/mentor, the team decided to demonstrate the testing automation concept around a simple stack implementation.
 Initially, a stack program was modelled, complete with all the typical functionality associated with it. The functions incorporated are: 
@@ -71,7 +71,7 @@ An element of input validation is also built into the stack function, to ensure 
 
 The stack functionality is supplemented by a front-end menu interface, which allows for user input and interaction, as well as the requisite main program logic, which coordinates stack operations/functions based on user input.
 
-Test Suite
+# Test Suites
 
 Subsequently, the testing automation concept was shown by building a complete suite of tests for the stack functions/methods. The aim of the test suite was to provide coverage of the core functionality of each of the stack’s functions/methods.
 
@@ -79,15 +79,15 @@ This ensures adequate test coverage in terms of functional testing and unit test
 
 Moreover, the tests were designed so that they can either be run independently by the developer/tester, or automatically (after being provided with the appropriate instructions) taking advantage of available automation tools.
 
-Programming Languages and Testing Frameworks
+# Programming Languages and Testing Frameworks
 
 In terms of programming languages used for this assignment - the above-mentioned stack implementation and testing suite, it was decided to use C# and Python programming languages. In spite of their inherit difference, for both languages, Python included, the code was constructed in an object-oriented manner, as far as possible, to provide a logical, organised and easy to understand code, whilst being modular and allowing for easy modification and/or enhancements. This would also allow for a fair comparison of performance and volume test runs if the need arises. 
 
 In this regard, in terms of testing frameworks, Python testing was built around the UnitTest framework, whilst C# testing was built around the NUnit framework. Both testing frameworks provide specialised functions which allow for various tests to be built and run.
 
-In terms of workflow, the team was instructed to upload their work on and utilise the GitHub repository. Apart from the main branch, separate branches were created for each team member accordingly.
+In terms of workflow, the team was instructed to upload their work on and utilise the GitHub platform repository. Apart from the main branch, separate branches were created for each team member accordingly.
 
-Test Functions
+# Test Functions
 
 In terms of the tests, looking at the Python implementation as an example (C# aims to take a similar if not completely identical approach), a number of tests were built, grouped as functions/methods. Each function/method groups tests for each of the stack’s functions/methods. As a result, testing class contains eight testing functions/methods, with self-explanatory names, as follows:
 
@@ -107,7 +107,7 @@ Each test function contains:
 -	a text message for each specific test, indicating the expected output, and displayed during the test execution.
 -	text messages indicating initiation and completion of the function’s tests, which are displayed at the start and end of the function’s tests respectively.
 
-Test Notes
+# Testing Notes
 
 Continuing with the Python implementation as an example, after initiating a stack instance, each test function typically tries to assert the state of the stack (empty) at the start, as well as assert the state/result of the stack after a push and pop operations, or series thereof, typically using simple known initial values such as ‘1’ and ‘2’ etc. In this manner, extreme/edge cases where the stack is empty, or has just one value added (pushed), or the only value removed (popped), are tested.
 
@@ -117,17 +117,17 @@ Two test_display functions are provided. The first function provides basic tests
 
 The test_push function also provides a test for pushing a different data type (string), should the need arises. Whilst the test passes, and the push function within the stack works correctly with this data type, this functionality is not required in our stack implementation, as input validation ensures that only valid (digits) input are accepted.
 
-Running Tests & Observations
+# Running the Tests & Observations
 
-Upon loading the Python project file (with the main.py and test_main.py files) in a compatible IDE, along with running/executing the (main) stack program, the user is encouraged to run/execute the test suite (test_main) to experience/check out the tests. In this case, upon running/executing, all the tests in the test class will execute automatically, with no user input being required. During execution, the IDE should display a number of test messages indicating test progress. Moreover, upon test completion (execution) the test result (passed/failed) and the execution time will also be displayed (provided that the tests are run on a compatible/featured IDE. Developer testing was conducted using PyCharm with Python 3.X).
+Upon loading the Python project file (with the main.py and test_main.py files) in a compatible IDE, along with running/executing the (main) stack program, the user is encouraged to run/execute the test suite (test_main) to experience/check out the tests. In this case, upon running/executing, all the tests in the test class will execute automatically, with no user input being required. During execution, the IDE should display a number of test messages indicating test progress. Moreover, upon test completion (execution) the test result (passed/failed) and the execution time will also be displayed (Provided that the tests are run on a compatible/featured IDE. Developer testing was conducted using PyCharm with Python 3.1X base/kernel).
 
-As at the assignment deadline, the final test suited executed flawlessly, providing a clean test passed result, and an execution time measured in milliseconds (never exceeding 100 milliseconds), calculated over numerous test runs on the same (developer) machine. Similar tests were conducted for the C# test suite.
+As at the assignment deadline, the final test suited executed flawlessly, providing a clean test passed result, and an execution time measured in milliseconds (never exceeding 100 milliseconds on a 10th Gen Core i5 machine with 8gb or RAM), calculated over numerous test runs on the same (developer) machine. Similar tests were conducted for the C# test suite.
 
-Testing Automation
+# Enabling Testing Automation
 
-After the respective test suites were created/completed in C# and Python, the final stage of the assignment consisted of uploading our code on our respective GitHub branch, as well as understanding and making use of GitHub Action’s built in workflows, to properly demonstrate Testing Automation in our assignment.
+After the respective test suites were created/completed in C# and Python, the final stage of the assignment/project consisted of uploading our code on our respective GitHub branch within the GitHub Project, as well as understanding and making use of GitHub Action’s built in workflows. This fully demonstrates Testing Automation in our assignment on a CI/CD system/environment which was attained by integrating and automating our test suites into the GitHub workflow pipeline, thus ensuring that any code changes/modifications are automatically tested upon final deployment.
 
-In this regard, utilising the YAML syntax, a workflow was setup, whereby upon detecting any push onto the main branch, the appropriate .Net and Python environments are set up, and the respective NUnit and UnitTest tests are automatically run and executed on the respective C# and Python Stack implementation, thereby verifying whether the updated (stack) code being pushed onto the main branch would pass of fail the respective test suite.
+In this regard, utilising the YAML syntax, a workflow was set up, whereby upon detecting any push onto the main branch, the appropriate .Net and Python environments are set up, and the respective NUnit and UnitTest tests are automatically run and executed on the respective C# and Python Stack implementation, thereby verifying whether the updated (stack) code being pushed onto the main branch would pass of fail the respective test suite.
 
 In terms of the test results, users can see and access the tests in progress, as well as the final test result (a red X or a green ‘check’ mark) on the top of the project files, when viewing in the main branch. 
 
