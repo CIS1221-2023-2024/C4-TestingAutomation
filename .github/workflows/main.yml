@@ -19,7 +19,7 @@ jobs:
           python-version: 3.11
 
       - name: run automated Python UnitTest tests on any Push to Main branch
-        run: python "Prnc&Prdg-PrgLng_Asgn_Stack/test_main.py"
+        run: python "Testing_Automation_Python/test_main.py"
 
       - name: Set up .NET
         uses: actions/setup-dotnet@v1
