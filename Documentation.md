@@ -121,7 +121,7 @@ The test_push function also provides a test for pushing a different data type (s
 
 Upon loading the Python project file (with the main.py and test_main.py files) in a compatible IDE, along with running/executing the (main) stack program, the user is encouraged to run/execute the test suite (test_main) to experience/check out the tests. In this case, upon running/executing, all the tests in the test class will execute automatically, with no user input being required. During execution, the IDE should display a number of test messages indicating test progress. Moreover, upon test completion (execution) the test result (passed/failed) and the execution time will also be displayed (Provided that the tests are run on a compatible/featured IDE. Developer testing was conducted using PyCharm with Python 3.1X base/kernel).
 
-As at the assignment deadline, the final test suited executed flawlessly, providing a clean test passed result, and an execution time measured in milliseconds (never exceeding 100 milliseconds on a 10th Gen Core i5 machine with 8gb or RAM), calculated over numerous test runs on the same (developer) machine. Similar tests were conducted for the C# test suite.
+As at the assignment deadline, the final test suited executed flawlessly, providing a clean test passed result, and an execution time measured in milliseconds (typically hovering around 40/30/20 milliseconds (initial test runs obviously take the longest to execute) (test runs never came close to or exceeded 100 milliseconds) on a 10th Gen Core i5 G machine with 8gb of RAM), calculated over numerous test runs on the same (developer) machine. Similar tests were conducted for the C# test suite.
 
 # Enabling Testing Automation
 
