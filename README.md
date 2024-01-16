@@ -9,7 +9,7 @@ Assignment/Project – Testing Automation
 [Guidelines Instructions](Guidelines_Instructions.md)
 
 
-[Wiki Detailed Documentation](Wiki_DetailedDocumentation.md)
+[Wiki Detailed Documentation](Wiki_Detailed_Documentation.md)
 
 [Python_C#_Documentation](https://github.com/CIS1221-2023-2024/C4-TestingAutomation/blob/main/Python_C%23_Documentation.md)
 
