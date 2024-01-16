@@ -11,7 +11,7 @@
 - Select to run the test_main.py to see the Test suite execute automatically. The testing process is automated. No User input is required for testing!
 - During execution, informative text messages are displayed. After execution the IDE will show the test result. A green check mark should be displayed, and the test result should read: Tests Passed: 8 out of 8 tests, and the execution time is displayed in milliseconds.
 - Feel free to review the code and evaluate our work. Read the comments to understand what each test does. You may also temporarily modify the code to try different test inputs and observe the resulting test output/results.
-- Finally, make sure to read the Project Documentation to fully understand the Project concept, how the Project progressed, and our final observations.
+- Finally, make sure to read the Project Wiki/Detailed Documentation to fully understand the Project concept, how the Project progressed, and our final observations.
 - Enjoy! ;)
 
 
@@ -24,7 +24,7 @@
 - Select to run...
 - During execution...
 - Feel free to review the code and evaluate our work. Read the comments to understand what each test does. You may also temporarily modify the code to try different test inputs and observe the resulting test output/results.
-- Finally, make sure to read the Project Documentation to fully understand the Project concept, how the Project progressed, and our final observations.
+- Finally, make sure to read the Project Wiki/Detailed Documentation to fully understand the Project concept, how the Project progressed, and our final observations.
 - Enjoy! ;)
 
 
