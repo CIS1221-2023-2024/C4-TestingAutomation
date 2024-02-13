@@ -139,3 +139,4 @@ Moreover, users may access and see individual test results (pass or fail) upon e
 
 Finally, it is worth noting that if testing automation workflow fails (upon pushing to the main branch), the GitHub team contributors will each be notified of the failed test by receiving an email in their registered inbox, notifying theme that the respective test (upon push to main branch) has failed, with the appropriate error message/s and info.
 
+[Automated Testing final Challenger report.pdf](https://github.com/CIS1221-2023-2024/C4-TestingAutomation/files/14271303/Automated.Testing.final.Challenger.report.pdf)
